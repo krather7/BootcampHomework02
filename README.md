@@ -1,12 +1,12 @@
 # BootcampHomework02
-Homework02 Portfolio
-
----CONTENTS--
-#INSTALLATION
-#USAGE
-#CREDITS
-
---#INSTALLATION--
+Homework02 Portfolio<br>
+<br>
+---CONTENTS--<br>
+#INSTALLATION<br>
+#USAGE<br>
+#CREDITS<br>
+<br>
+--#INSTALLATION--<br>
 Repo Link:    https://github.com/krather7/BootcampHomework02
 Website Link: https://krather7.github.io/BootcampHomework02/
 
