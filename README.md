@@ -7,11 +7,11 @@ Homework02 Portfolio<br>
 #CREDITS<br>
 <br>
 --#INSTALLATION--<br>
-Repo Link:    https://github.com/krather7/BootcampHomework02
-Website Link: https://krather7.github.io/BootcampHomework02/
+Repo Link:    https://github.com/krather7/BootcampHomework02<br>
+Website Link: https://krather7.github.io/BootcampHomework02/<br>
 
---#USAGE--
-This website is intended to provide a starting point in the creation of a portfolio.  Right now, Projects contain filler websites that will be updated as the course continues.
+--#USAGE--<br>
+This website is intended to provide a starting point in the creation of a portfolio.  Right now, Projects contain filler websites that will be updated as the course continues.<br>
 
---#CREDITS--
-Kyle Rather
+--#CREDITS--<br>
+Kyle Rather<br>
