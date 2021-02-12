@@ -7,12 +7,10 @@ html {
   }
 
 body {
-    padding: 0;
     font-family: 'sans', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
     max-width: 1200px;    
     margin: auto;
-
   }
   
   header {
@@ -53,7 +51,6 @@ body {
     font-family: "Hallo Sans";
     color:  rgba(28, 155, 160, 0.774);
     text-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
-    background-color: var(--secondary);
     padding: 15px 1% 15px 1%;
     margin: 0;
     font-size: 5vw;
@@ -73,8 +70,6 @@ body {
 
   .aboutme {
     color: rgba(28, 155, 160, 0.774);
-    margin-right: 0;
-    margin-top: 0;
     font-size: 1.8vw;
     padding: 0 10px 5px 0px;
     display: flex;
@@ -94,9 +89,8 @@ body {
     background-color: rgba(41, 54, 54, 0.836);
     display: flex;
     flex-direction: row;
-    flex-wrap: initial;
-    justify-content: center;
-    align-items: center;
+    align-items:center;
+    padding-left: 100px;
     line-height: 0;
      }
 
@@ -106,6 +100,16 @@ body {
     max-width: 80%;
     max-height: 80%;
   }
+
+  .textbox { 
+    position:relative; 
+    text-align: center;
+    bottom: 100px;
+    font-size: 1.75vw;
+    font-family: "Segoe Script", "Lucida Handwriting";
+    max-width: 80%;
+    max-height: 80%
+ }
 
   h3 {
     font-family: "Segoe Script", "Lucida Handwriting";
@@ -117,6 +121,7 @@ body {
     line-height: 1;
     background-color: rgba(28, 155, 160, 0.774);
     box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+    
   }
 
   h4 {
@@ -148,33 +153,18 @@ body {
     font-size: 2vw;
     font-weight: bolder;
   }   
-  .textbox { 
-    position:relative; 
-    bottom: 100px;
-    font-size: 2vw;
-    padding: 0 0 0 0;
-    margin: 0;
-    font-family: "Segoe Script", "Lucida Handwriting";
-    max-width: 80%;
-    max-height: 80%
- }
+
 
  /*Remove text link decorations*/
  a:link {
   text-decoration: none;
 }
-
-
 a:visited {
   text-decoration: none;
 }
-
-
 a:hover {
   text-decoration: none;
 }
-
-
 a:active {
   text-decoration: none;
 }
@@ -182,7 +172,7 @@ a:active {
 
   /* Hover Growth */
   
-    .project-picture:hover {
+  .project-picture:hover {
     -webkit-transform: scale(1.15);
     -moz-transform: scale(1.15);
     -o-transform: scale(1.15);
@@ -202,12 +192,4 @@ a:active {
     -o-transform: scale(1.04);
     -ms-transform: scale(1.04);
     transform: scale(1.04);
-    }
-
-    @media screen and (max-width: 768px)
-    {
-        body{
-            margin-left:10%;
-            margin-right:10%;
-        }   
     }
